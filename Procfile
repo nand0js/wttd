@@ -1,0 +1,1 @@
+web: gunicorn meduti.wsig --log-file -
