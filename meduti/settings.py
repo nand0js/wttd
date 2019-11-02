@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'meduti.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-default_url ='sqlite:///'+os.path.join(BASE_DIR, 'db.sqlite3')
+default_dburl = 'sqlite:///'+os.path.join(BASE_DIR, 'db.sqlite3')
 
 DATABASES = {
     'default': config('DATABASE_URL', default = default_dburl, cast = db_url),
