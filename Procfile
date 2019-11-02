@@ -1,1 +1,1 @@
-web: gunicorn meduti.wsig --log-file -
+web: gunicorn meduti.wsgi --log-file -
